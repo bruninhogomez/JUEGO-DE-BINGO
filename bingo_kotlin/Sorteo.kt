@@ -13,7 +13,9 @@ class Sorteo {
         println("Números sorteados: $numerosSorteados")
     }
 
-    // ✅ Nueva función para acceder a los números sorteados
+    /** Nueva función para acceder a los números sorteados
+     * @return lista de enteros de los números sorteados
+     */
     fun getNumerosSorteados(): List<Int> {
         return numerosSorteados
     }
